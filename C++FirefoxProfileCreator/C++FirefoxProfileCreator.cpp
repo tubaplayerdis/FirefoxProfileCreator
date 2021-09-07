@@ -11,7 +11,7 @@ using namespace std;
 int nameingNumber = 0;
 // interger that defines at what value comes after the name of the profile then plus itsself after it is creates, if unsure leave at zero
 
-// YOU MIGHT NEED TO INCREASE SLEEP TIMES X2 IF YOUR COMPUTER IS SLOW
+// YOU MIGHT NEED TO INCREASE SLEEP TIMES x2 IF YOUR COMPUTER IS SLOW
 
 // GO TO LINEs 91 - 109
 
@@ -95,11 +95,11 @@ void Creator2()
             //=====================================================
             //=====================================================
             // POSITION OF THE CREATE PROFILE BUTTON
-            int x1 = 747;
-            int y1 = 439;
+            int xpos1 = 747;
+            int ypos1 = 439;
             // POSITION OF THE NEXT BUTTON
-            int x2 = 987;
-            int y2 = 693;
+            int xpos2 = 987;
+            int ypos2 = 693;
             //=====================================================
             //=====================================================
             //=====================================================
@@ -135,19 +135,19 @@ void Creator2()
 
             Sleep(1000);
 
-            SetCursorPos(x1, y1);
+            SetCursorPos(xpos1, ypos1);
 
-            mouse_event(MOUSEEVENTF_LEFTDOWN, x1, y1, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, xpos1, ypos1, 0, 0);
 
-            mouse_event(MOUSEEVENTF_LEFTUP, x1, y1, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, xpos1, ypos1, 0, 0);
 
             Sleep(500);
 
-            SetCursorPos(x2, y2);
+            SetCursorPos(xpos2, ypos2);
 
-            mouse_event(MOUSEEVENTF_LEFTDOWN, x2, y2, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, xpos2, ypos2, 0, 0);
 
-            mouse_event(MOUSEEVENTF_LEFTUP, x2, y2, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, xpos2, ypos2, 0, 0);
 
             Sleep(500);
 
@@ -155,11 +155,11 @@ void Creator2()
 
             Sleep(1000);
 
-            SetCursorPos(x2, y2);
+            SetCursorPos(xpos2, ypos2);
 
-            mouse_event(MOUSEEVENTF_LEFTDOWN, x2, y2, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, xpos2, ypos2, 0, 0);
 
-            mouse_event(MOUSEEVENTF_LEFTUP, x2, y2, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, xpos2, ypos2, 0, 0);
             
             wcout << msg << "Has Been Made" << "\n";
             Sleep(500);
