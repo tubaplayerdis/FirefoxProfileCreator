@@ -16,5 +16,5 @@ If you want to add more you will need a basic understanding of c++.
 
 you also need to build yourself in visual studio.
 
-
+Thanks for reading.
 
