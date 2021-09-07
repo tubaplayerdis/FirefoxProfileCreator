@@ -1,0 +1,2 @@
+# FirefoxProfileCreator
+Creates Firefox Profiles
