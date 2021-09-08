@@ -13,7 +13,7 @@ int nameingNumber = 0;
 
 // YOU MIGHT NEED TO INCREASE SLEEP TIMES x2 IF YOUR COMPUTER IS SLOW
 
-// GO TO LINEs 91 - 109
+// GO TO LINES 91 - 109
 
 bool programActive = false;
 bool CursorDebugActive = false;
