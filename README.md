@@ -16,5 +16,9 @@ If you want to add more you will need a basic understanding of c++.
 
 you also need to build yourself in visual studio.
 
+Builds will be posted in releases but to get latest version compile yourself.
+
+only works with windows
+
 Thanks for reading.
 
